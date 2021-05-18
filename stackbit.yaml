@@ -267,10 +267,8 @@ models:
         description: Page sections
         items:
           type: color
-      - type: model
+      - type: number
         name: seo
-        models:
-          - stackbit_page_meta
         label: Seo
   blog_feed_section:
     type: object
