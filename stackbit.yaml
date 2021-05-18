@@ -270,6 +270,8 @@ models:
       - type: number
         name: seo
         label: Seo
+        required: true
+        hidden: true
   blog_feed_section:
     type: object
     label: Blog Feed Section
